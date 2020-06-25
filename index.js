@@ -3,7 +3,7 @@ const express = require('express')
 const app = express();
 
 app.get('/', (req, res)=>{
-    res.send('jenkins depoly!')
+    res.send('jenkins depoly! 2')
 })
 
 app.listen(3333, ()=>console.log('server online na porta 3333'))
